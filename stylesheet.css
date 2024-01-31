@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Webpage</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      padding-top: 56px; /* Adjusted for fixed navbar */
+      background-image: url('image1.jpg'); /* Replace 'your_background_image.jpg' with your image URL */
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+    }
+
+    .jumbotron {
+      background: none; /* Clear background for jumbotron */
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <!-- (unchanged) -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Welcome to Your Website</h1>
+      <p class="lead">A simple and stylish webpage built with HTML, CSS, and Bootstrap.</p>
+    </div>
+  </div>
+
+  <!-- Card Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- (unchanged) -->
+      </div>
+      <div class="col-md-4">
+        <!-- (unchanged) -->
+      </div>
+      <div class="col-md-4">
+        <!-- (unchanged) -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <!-- (unchanged) -->
+</body>
+</html>
